@@ -37,6 +37,7 @@ Three modules, all judgment exposed in CONFIG dicts at the top of each file so a
 - **Real signal ingestion.** No live job board, news feed, or LinkedIn scraping. The mock data is realistic enough to test the scoring logic; the wiring to real sources is plumbing, and the brief is explicit that polish on plumbing is a bad tradeoff.
 - **An n8n / orchestration layer.** Tempting because the brief mentions n8n, but the judgment is the product here, not the orchestration. Production version would wrap this engine as an n8n custom node — that's noted in "next 10 hours" below.
 - **Persistence / feedback loop.** No database, no rep-outcome logging. In a real deployment, every Tier 1 fire and Tier 4 review needs to write back so weights can be tuned from data, not vibes.
+- **A GTM brain layer.** The CONFIG dicts in scoring.py and tiering.py are the first version of "judgment encoded in software" — but they're hand-coded and frozen at the moment I wrote them. The next version is an Obsidian-style markdown vault where the team's accumulated rules-of-thumb live as first-class inputs to the engine.
 
 ### Where it breaks at 10x data
 
