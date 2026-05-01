@@ -1,0 +1,4 @@
+streamlit>=1.30
+# Optional: only needed for the LLM-upgraded email generation.
+# The fallback email generator runs without this dependency.
+anthropic>=0.40
