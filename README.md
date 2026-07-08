@@ -1,6 +1,6 @@
-# Industrial TAM Scoring Engine — TigerData
+# Industrial TAM Scoring Engine 
 
-A scoring engine for TigerData's actual TAM: heavy industrial, logistics, and manufacturing accounts. Not generic ABM. The signals, weights, and guardrails are tuned for buyers who don't show up on G2 and don't surge on Bombora the way a Series B SaaS company does.
+A scoring engine for my actual TAM: heavy industrial, logistics, and manufacturing accounts. Not generic ABM. The signals, weights, and guardrails are tuned for buyers who don't show up on G2 and don't surge on Bombora the way a Series B SaaS company does.
 
 **Run it:**
 ```bash
